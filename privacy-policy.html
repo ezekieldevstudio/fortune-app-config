@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Privacy Policy for FourPick, currently in development.">
-    <title>Privacy Policy | FourPick</title>
+    <meta name="description" content="Privacy Policy for FO PICK, currently in development.">
+    <title>Privacy Policy | FO PICK</title>
     <style>
       :root {
         color-scheme: light;
@@ -35,14 +35,14 @@
   <body>
     <main>
       <header>
-        <p class="brand">FourPick / 포픽</p>
+        <p class="brand">FO PICK / 포픽</p>
         <h1>Privacy Policy</h1>
-        <p>FourPick is under development. This policy describes the current app and distinguishes planned features from features available now.</p>
+        <p>FO PICK is under development. This policy describes the current app and distinguishes planned features from features available now.</p>
       </header>
 
       <section aria-labelledby="purpose">
         <h2 id="purpose">Purpose of the app</h2>
-        <p>FourPick is intended for entertainment and self-reflection. Card readings do not guarantee predictions and are not professional advice. Readings are composed on your device using the selected topic, mood, cards, and their order.</p>
+        <p>FO PICK is intended for entertainment and self-reflection. Card readings do not guarantee predictions and are not professional advice. Readings are composed on your device using the selected topic, mood, cards, and their order.</p>
       </section>
 
       <section aria-labelledby="information">
@@ -54,15 +54,35 @@
       <section aria-labelledby="storage">
         <h2 id="storage">Reading data and local storage</h2>
         <p>Your selected topic, mood, cards and their order, reading result, and reading timestamp may be stored locally on your device. Reading history allows you to revisit previous readings, including their original basic and detailed text.</p>
-        <p>You can delete individual readings from their history details and delete all reading history from the app settings. Local reading history is not currently synchronized to a FourPick server or account. Uninstalling the app or clearing app data may remove local records.</p>
+        <p>You can delete individual readings from their history details and delete all reading history from the app settings. Local reading history is not currently synchronized to a FO PICK server or account. Uninstalling the app or clearing app data may remove local records.</p>
         <p>Usage-limit state is also stored locally to manage normal app usage, including which free reading periods have been used. It may include a reading/session identifier, usage day, reading type, consumption timestamp, and timezone offset. Usage records are separate from reading history; deleting reading history does not restore used reading allowances.</p>
+        <p>Access to detailed readings and earned bonus allowances is stored separately from the reading text. Local reward transaction identifiers and completion timestamps support duplicate prevention and retrying interrupted saves. Deleting a reading removes its detailed-reading access; it does not reset usage allowances. Pending reward receipts are removed after application, including when the associated reading has been deleted.</p>
         <p>This local app storage is not encrypted secure storage and should not be used for confidential information. Unfinished reading selections may remain only in memory and may be lost when the app closes.</p>
       </section>
 
       <section aria-labelledby="services">
-        <h2 id="services">Third-party services and future changes</h2>
-        <p>Advertising services, including AdMob, and purchases through Google Play Billing are not currently enabled in the app. Third-party services may later be used for advertising, purchases, or technical operation.</p>
-        <p>This policy will be updated before those services are enabled to describe the services used, any information they handle, and any relevant choices. Planned features should not be understood as data collection already taking place.</p>
+        <h2 id="services">Optional rewarded advertising</h2>
+        <p>FO PICK integrates Google AdMob through the Google Mobile Ads SDK for optional rewarded advertising. Ads are available in native builds with the SDK installed, valid advertising configuration, and permission to request ads. Development testing uses Google's test ads; production advertising is not served without production configuration.</p>
+        <p>You choose whether to watch an ad to open the detailed interpretation of an existing reading, or to receive one extra Single or Triple reading after using all three regular reading periods for that usage day. Basic readings remain available without watching an ad, within the app's free usage limits. Ads do not change your cards or interpretation and do not grant extra FO PICK readings.</p>
+        <p>The Google Mobile Ads SDK may collect and share information such as IP addresses (which may indicate approximate location), device or advertising identifiers, ad interactions, and diagnostic information for advertising, measurement, and fraud prevention. The information processed depends on the SDK, device settings, configuration, and applicable privacy choices. FO PICK does not request precise location for ads, or directly send your selected topic, mood, cards, or reading text as advertising targeting values.</p>
+        <p>After the consent check permits ad requests, the app may preload a rewarded ad before you choose to watch it. This can involve communication with Google's advertising services. No FO PICK account or server-side reading synchronization is required.</p>
+        <p>For more information, see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads data disclosures</a>.</p>
+      </section>
+
+      <section aria-labelledby="consent">
+        <h2 id="consent">Consent and privacy choices</h2>
+        <p>FO PICK uses Google's User Messaging Platform (UMP) to update consent information and present Google's consent form where required. Ads are requested only when UMP indicates that they can be requested. Where UMP requires a privacy options entry point, the app's settings provide access to Google's privacy options form. Choices and their availability depend on your region and the configured messages. Relevant consent preferences may be stored by the SDK.</p>
+        <p>While Premium access is active, the app suppresses rewarded-ad entry points and new rewarded-ad requests. A consent or ad operation already in progress may complete. Where the app has received a UMP requirement for privacy options, that settings entry remains available.</p>
+      </section>
+
+      <section aria-labelledby="purchases">
+        <h2 id="purchases">Optional Premium purchase</h2>
+        <p>FO PICK offers an optional one-time, non-consumable Premium purchase through Google Play Billing. It is not a subscription and does not automatically renew. This integration is in development; store product configuration and purchase testing must be completed before public availability.</p>
+        <p>Payment processing is handled by Google Play. FO PICK does not receive or store your full payment card details, payment-method details, or Google payment account information. The app uses the product identifier, purchase state, and purchase token returned by Google Play to determine Premium entitlement and acknowledge a completed purchase. Purchase tokens are used in memory for these operations and are not saved in FO PICK's local entitlement cache.</p>
+        <p>The app stores a minimal entitlement cache on the device: its schema version, Premium status, source, product identifier, last refresh timestamp, and last known purchase state. This cache is separate from reading history and usage records; deleting reading history does not delete Premium entitlement. The app refreshes ownership through Google Play at startup, on return to the foreground, and when you choose Purchase Restore in settings. Reinstalling or changing devices requires Google Play to return the purchase for the same purchasing account.</p>
+        <p>A last confirmed Premium cache may be used offline for up to seven days. A successful ownership query updates it, including removing global Premium access when no valid purchase is returned. Individual detailed readings previously unlocked by rewarded ads remain unlocked while those records exist. This version does not use FO PICK server-side purchase verification and cannot guarantee immediate detection of refunds or revocations.</p>
+        <p>Premium removes rewarded-ad requirements for detailed-reading access and for the daily bonus regular reading. The bonus is one extra Single or Triple reading after all three regular reading periods are used, shared with the free rewarded bonus limit. Premium does not offer unlimited readings or extra FO PICK readings. A purchase does not affect card selection, probabilities, reading plans, or fortune/card outcomes; the interpretation text is the same for free and Premium users.</p>
+        <p>For information about Google's handling of purchases and payment information, see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
       </section>
 
       <section aria-labelledby="contact">
