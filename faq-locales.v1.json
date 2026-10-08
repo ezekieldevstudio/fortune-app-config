@@ -50,12 +50,12 @@
       {
         "id": "premium",
         "question": "FO PICK v1은 어떻게 이용하나요?",
-        "answer": "기본 해석은 무료입니다. 상세 해석과 조건을 충족한 일반 보너스 1회는 선택형 보상 광고를 완료해 이용합니다. 광고는 카드 확률·의미·해석 품질을 바꾸지 않습니다."
+        "answer": "기본 해석은 무료이며 홈 하단에 배너 광고 1개가 표시될 수 있습니다. 선택형 보상 광고는 해당 기록의 상세 해석을 열거나, 일반 오전·오후·저녁 3회 소진 후 일반 보너스 1회를 받는 두 용도입니다. FO PICK 추가 이용은 제공하지 않으며 광고는 카드 확률·의미·해석 품질을 바꾸지 않습니다."
       },
       {
         "id": "subscription",
         "question": "광고를 꼭 봐야 하나요?",
-        "answer": "아니요. 무료 이용 횟수 안에서 기본 해석은 광고 없이 읽을 수 있습니다. 상세 해석이나 일반 보너스가 필요할 때만 광고 시청을 선택하세요."
+        "answer": "보상형 광고 시청은 선택사항입니다. 무료 이용 횟수 안에서 기본 해석을 보기 위해 보상형 광고를 완료할 필요는 없습니다. 홈에는 동의 확인 후 배너 광고가 표시될 수 있지만 카드 선택·공개·결과·기록·설정·FAQ에는 배너가 없습니다. 배너 로드 실패도 앱 이용을 막지 않습니다."
       },
       {
         "id": "restore",
@@ -112,12 +112,12 @@
       {
         "id": "premium",
         "question": "How does FO PICK v1 work?",
-        "answer": "Basic readings are free. Complete an optional rewarded ad to open a detailed reading or receive an eligible regular bonus. Ads never change card probabilities, meanings or reading quality."
+        "answer": "Basic readings are free, and one banner may appear at the bottom of Home. Optional rewarded ads have two purposes: unlocking the details of that saved reading, or granting one extra regular reading after all three morning, afternoon and evening readings are used. They do not grant extra FO PICK readings or change card probabilities, meanings or reading quality."
       },
       {
         "id": "subscription",
         "question": "Do I have to watch ads?",
-        "answer": "No. Within the free usage limits, basic readings do not require ads. Choose to watch only when you want details or an eligible regular bonus."
+        "answer": "Watching a rewarded ad is optional. You do not need to complete one to read a basic interpretation within the free limits. A banner may appear on Home after the consent check; there are no banners on card selection, reveal, results, history, settings or FAQ screens. A banner load failure does not prevent you from using the app."
       },
       {
         "id": "restore",
@@ -174,12 +174,12 @@
       {
         "id": "premium",
         "question": "FO PICK v1の利用方法は？",
-        "answer": "基本の解釈は無料です。任意のリワード広告を完了すると、詳細の解釈、または条件を満たした通常ボーナス1回を利用できます。広告はカードの確率・意味・文章の品質を変えません。"
+        "answer": "基本リーディングは無料で、ホーム下部にバナー広告が1件表示される場合があります。任意のリワード広告の用途は、その記録の詳細を開くことと、朝・昼・夜の通常リーディング3回を使い切った後に通常リーディングを1回追加することの2つです。FO PICKの追加利用はできず、カードの確率・意味・解釈の質も変わりません。"
       },
       {
         "id": "subscription",
         "question": "広告を必ず見る必要がありますか？",
-        "answer": "いいえ。無料の利用回数内で、基本の解釈は広告なしで読めます。詳細や条件を満たした通常ボーナスが必要な場合にだけ、視聴を選んでください。"
+        "answer": "リワード広告の視聴は任意です。無料の利用回数内で基本解釈を読むために、広告を最後まで見る必要はありません。同意確認後、ホームにはバナーが表示される場合がありますが、カード選択・公開・結果・履歴・設定・FAQには表示されません。バナーの読み込みに失敗してもアプリは利用できます。"
       },
       {
         "id": "restore",
@@ -236,12 +236,12 @@
       {
         "id": "premium",
         "question": "¿Cómo funciona FO PICK v1?",
-        "answer": "La lectura básica es gratuita. Completa un anuncio opcional para abrir los detalles o recibir un extra normal si cumples las condiciones. Los anuncios no cambian las probabilidades, los significados ni la calidad de la lectura."
+        "answer": "La lectura básica es gratuita y puede aparecer un banner en la parte inferior de Inicio. Los anuncios recompensados opcionales tienen dos usos: abrir los detalles de esa lectura guardada o conceder una lectura normal extra tras agotar las tres de mañana, tarde y noche. No permiten tiradas FO PICK adicionales ni cambian las probabilidades, los significados o la calidad de la lectura."
       },
       {
         "id": "subscription",
         "question": "¿Tengo que ver anuncios?",
-        "answer": "No. Dentro de los límites gratuitos puedes leer la interpretación básica sin anuncios. Elige verlos solo si deseas los detalles o un extra normal y cumples las condiciones."
+        "answer": "Ver un anuncio recompensado es opcional. No necesitas completarlo para leer la interpretación básica dentro de los límites gratuitos. Tras comprobar el consentimiento, puede aparecer un banner en Inicio; no hay banners al elegir o revelar cartas, en resultados, historial, ajustes ni preguntas frecuentes. Si el banner no carga, puedes seguir usando la aplicación."
       },
       {
         "id": "restore",
@@ -298,12 +298,12 @@
       {
         "id": "premium",
         "question": "Como funciona o FO PICK v1?",
-        "answer": "A leitura básica é gratuita. Conclua um anúncio opcional para abrir os detalhes ou receber um bônus comum, se elegível. Os anúncios não mudam as probabilidades, os significados ou a qualidade da leitura."
+        "answer": "A leitura básica é gratuita, e um banner pode aparecer na parte inferior do Início. Os anúncios com recompensa opcionais têm duas finalidades: abrir os detalhes daquela leitura salva ou conceder uma leitura comum extra depois de usar as três da manhã, tarde e noite. Eles não dão tiragens FO PICK adicionais nem mudam probabilidades, significados ou qualidade das leituras."
       },
       {
         "id": "subscription",
         "question": "Preciso assistir a anúncios?",
-        "answer": "Não. Dentro dos limites gratuitos, você pode ler a interpretação básica sem anúncios. Assista apenas se quiser os detalhes ou um bônus comum e cumprir as condições."
+        "answer": "Assistir a um anúncio com recompensa é opcional. Você não precisa concluí-lo para ler a interpretação básica dentro dos limites gratuitos. Após a verificação de consentimento, um banner pode aparecer no Início; não há banners na escolha ou revelação de cartas, nos resultados, histórico, configurações ou FAQ. Se o banner não carregar, o aplicativo continua disponível."
       },
       {
         "id": "restore",
@@ -360,12 +360,12 @@
       {
         "id": "premium",
         "question": "Comment fonctionne FO PICK v1 ?",
-        "answer": "La lecture de base est gratuite. Terminez une publicité facultative pour ouvrir les détails ou obtenir un bonus ordinaire si les conditions sont remplies. Les publicités ne changent ni les probabilités, ni les significations, ni la qualité des lectures."
+        "answer": "La lecture de base est gratuite et une bannière peut apparaître en bas de l’accueil. Les publicités récompensées facultatives ont deux usages : ouvrir les détails de cette lecture enregistrée ou accorder une lecture ordinaire supplémentaire après les trois du matin, de l’après-midi et du soir. Elles ne donnent pas de tirage FO PICK supplémentaire et ne changent ni les probabilités, ni les significations, ni la qualité des lectures."
       },
       {
         "id": "subscription",
         "question": "Dois-je regarder des publicités ?",
-        "answer": "Non. Dans les limites gratuites, la lecture de base ne nécessite aucune publicité. Choisissez d’en regarder uniquement pour les détails ou un bonus ordinaire auquel vous avez droit."
+        "answer": "Regarder une publicité récompensée est facultatif. Il n’est pas nécessaire d’en terminer une pour lire l’interprétation de base dans les limites gratuites. Une bannière peut apparaître à l’accueil après vérification du consentement ; il n’y en a pas lors du choix ou de la révélation des cartes, ni dans les résultats, l’historique, les réglages ou la FAQ. Un échec de chargement de la bannière n’empêche pas d’utiliser l’application."
       },
       {
         "id": "restore",
@@ -422,12 +422,12 @@
       {
         "id": "premium",
         "question": "Wie funktioniert FO PICK v1?",
-        "answer": "Die kurze Deutung ist kostenlos. Eine freiwillig vollständig angesehene Werbung öffnet die ausführliche Deutung oder einen regulären Bonus, wenn die Voraussetzungen erfüllt sind. Werbung verändert weder Kartenwahrscheinlichkeiten noch Bedeutungen oder Textqualität."
+        "answer": "Die Basisdeutung ist kostenlos. Unten auf der Startseite kann ein Werbebanner erscheinen. Freiwillige belohnte Werbung hat zwei Zwecke: die Details der gespeicherten Deutung freizuschalten oder nach den drei normalen Deutungen am Morgen, Nachmittag und Abend eine zusätzliche normale Deutung zu erhalten. Sie ermöglicht keine weitere FO PICK Ziehung und verändert weder Kartenwahrscheinlichkeiten noch Bedeutungen oder die Qualität der Deutungen."
       },
       {
         "id": "subscription",
         "question": "Muss ich Werbung ansehen?",
-        "answer": "Nein. Innerhalb der kostenlosen Nutzungsgrenzen kannst du die kurze Deutung ohne Werbung lesen. Werbung ist nur für die ausführliche Deutung oder einen berechtigten regulären Bonus nötig."
+        "answer": "Belohnte Werbung anzusehen ist freiwillig. Für eine Basisdeutung innerhalb der kostenlosen Nutzungslimits musst du keine Werbung zu Ende ansehen. Nach der Einwilligungsprüfung kann auf der Startseite ein Banner erscheinen; bei Kartenauswahl, Aufdecken, Ergebnissen, Verlauf, Einstellungen und FAQ gibt es keine Banner. Ein Ladefehler des Banners verhindert die Nutzung der App nicht."
       },
       {
         "id": "restore",
@@ -484,12 +484,12 @@
       {
         "id": "premium",
         "question": "Come funziona FO PICK v1?",
-        "answer": "La lettura di base è gratuita. Completa un annuncio facoltativo per aprire i dettagli o ricevere un bonus ordinario, se ne hai diritto. Gli annunci non cambiano probabilità, significati o qualità delle letture."
+        "answer": "La lettura di base è gratuita e può comparire un banner in fondo alla pagina iniziale. Gli annunci con ricompensa facoltativi hanno due scopi: aprire i dettagli di quella lettura salvata oppure offrire una lettura ordinaria extra dopo aver usato le tre del mattino, pomeriggio e sera. Non danno estrazioni FO PICK aggiuntive e non cambiano probabilità, significati o qualità delle letture."
       },
       {
         "id": "subscription",
         "question": "Devo guardare gli annunci?",
-        "answer": "No. Entro i limiti gratuiti, la lettura di base non richiede annunci. Scegli di guardarli solo per i dettagli o per un bonus ordinario di cui soddisfi le condizioni."
+        "answer": "Guardare un annuncio con ricompensa è facoltativo. Non devi completarne uno per leggere l’interpretazione di base entro i limiti gratuiti. Dopo la verifica del consenso, può comparire un banner nella pagina iniziale; non ci sono banner durante scelta e rivelazione delle carte, né in risultati, cronologia, impostazioni o FAQ. Se il banner non si carica, puoi continuare a usare l’app."
       },
       {
         "id": "restore",
@@ -546,12 +546,12 @@
       {
         "id": "premium",
         "question": "FO PICK v1如何使用？",
-        "answer": "基础解读免费。自愿完整观看激励广告可打开详细解读，或在符合条件时获得一次普通额外解读。广告不会改变卡牌概率、含义或解读质量。"
+        "answer": "基础解读免费，首页底部可能显示一条横幅广告。自愿观看的激励广告有两种用途：解锁该条已保存解读的详情，或在上午、下午、晚间的三次普通解读用完后获得一次普通解读奖励。广告不会增加 FO PICK 次数，也不会改变抽牌概率、牌意或解读质量。"
       },
       {
         "id": "subscription",
         "question": "必须看广告吗？",
-        "answer": "不必。在免费使用次数内，基础解读无需广告。只有需要详细解读或符合条件的普通额外解读时，才选择观看广告。"
+        "answer": "激励广告可自行选择观看。在免费次数范围内阅读基础解读，不需要看完激励广告。完成同意状态检查后，首页可能显示横幅广告；选牌、翻牌、结果、历史记录、设置及常见问题页面均不显示横幅。横幅加载失败也不会影响使用应用。"
       },
       {
         "id": "restore",
@@ -608,12 +608,12 @@
       {
         "id": "premium",
         "question": "FO PICK v1如何使用？",
-        "answer": "基本解讀免費。自願完整觀看獎勵廣告可開啟詳細解讀，或在符合條件時獲得一次一般額外解讀。廣告不會改變卡牌機率、含義或解讀品質。"
+        "answer": "基本解讀免費，首頁底部可能顯示一則橫幅廣告。自願觀看的獎勵式廣告有兩種用途：解鎖該筆已儲存解讀的詳細內容，或在上午、下午、晚間的三次一般解讀用完後獲得一次一般解讀獎勵。廣告不會增加 FO PICK 次數，也不會改變抽牌機率、牌意或解讀品質。"
       },
       {
         "id": "subscription",
         "question": "一定要看廣告嗎？",
-        "answer": "不必。在免費使用次數內，基本解讀無須廣告。只有需要詳細解讀或符合條件的一般額外解讀時，才選擇觀看廣告。"
+        "answer": "獎勵式廣告可自行選擇觀看。在免費次數範圍內閱讀基本解讀，不需要看完獎勵式廣告。確認同意狀態後，首頁可能顯示橫幅廣告；選牌、翻牌、結果、歷史紀錄、設定及常見問題頁面均不顯示橫幅。橫幅載入失敗也不會影響使用應用程式。"
       },
       {
         "id": "restore",
@@ -670,12 +670,12 @@
       {
         "id": "premium",
         "question": "Bagaimana cara menggunakan FO PICK v1?",
-        "answer": "Bacaan dasar gratis. Selesaikan iklan opsional untuk membuka rincian atau menerima satu bonus reguler bila memenuhi syarat. Iklan tidak mengubah peluang kartu, makna, atau kualitas bacaan."
+        "answer": "Bacaan dasar gratis, dan satu iklan banner dapat muncul di bagian bawah Beranda. Iklan berhadiah yang bersifat pilihan memiliki dua kegunaan: membuka detail bacaan tersimpan itu, atau memberikan satu bacaan biasa tambahan setelah jatah pagi, siang, dan malam habis. Iklan tidak menambah bacaan FO PICK maupun mengubah peluang kartu, makna, atau kualitas bacaan."
       },
       {
         "id": "subscription",
         "question": "Apakah saya wajib menonton iklan?",
-        "answer": "Tidak. Dalam batas penggunaan gratis, bacaan dasar dapat dibaca tanpa iklan. Pilih menonton hanya untuk rincian atau bonus reguler yang memenuhi syarat."
+        "answer": "Menonton iklan berhadiah adalah pilihan. Kamu tidak perlu menyelesaikannya untuk membaca tafsiran dasar dalam batas gratis. Setelah pemeriksaan persetujuan, banner dapat tampil di Beranda; banner tidak muncul saat memilih atau membuka kartu, maupun pada hasil, riwayat, pengaturan, dan FAQ. Jika banner gagal dimuat, aplikasi tetap bisa digunakan."
       },
       {
         "id": "restore",
@@ -732,12 +732,12 @@
       {
         "id": "premium",
         "question": "FO PICK v1 hoạt động thế nào?",
-        "answer": "Nội dung cơ bản miễn phí. Xem hết quảng cáo tự nguyện để mở chi tiết hoặc nhận một lượt thưởng thông thường khi đủ điều kiện. Quảng cáo không thay đổi xác suất lá bài, ý nghĩa hay chất lượng bài đọc."
+        "answer": "Bài đọc cơ bản miễn phí và một quảng cáo biểu ngữ có thể xuất hiện ở cuối trang chủ. Quảng cáo có thưởng tự nguyện có hai mục đích: mở phần chi tiết của bài đọc đã lưu đó, hoặc tặng một lượt đọc thường sau khi đã dùng hết ba lượt sáng, chiều và tối. Quảng cáo không tăng lượt FO PICK, cũng không đổi xác suất chọn lá, ý nghĩa hay chất lượng bài đọc."
       },
       {
         "id": "subscription",
         "question": "Tôi có bắt buộc xem quảng cáo không?",
-        "answer": "Không. Trong giới hạn sử dụng miễn phí, bạn có thể đọc nội dung cơ bản không cần quảng cáo. Chỉ chọn xem khi muốn mở chi tiết hoặc nhận lượt thưởng thông thường đủ điều kiện."
+        "answer": "Xem quảng cáo có thưởng là tùy chọn. Bạn không cần xem hết quảng cáo để đọc phần cơ bản trong giới hạn miễn phí. Sau khi kiểm tra trạng thái đồng ý, biểu ngữ có thể xuất hiện ở trang chủ; không có biểu ngữ ở màn hình chọn lá, lật lá, kết quả, lịch sử, cài đặt hay câu hỏi thường gặp. Biểu ngữ tải thất bại không ngăn bạn sử dụng ứng dụng."
       },
       {
         "id": "restore",
