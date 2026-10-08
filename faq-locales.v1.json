@@ -1,0 +1,749 @@
+{
+  "schemaVersion": 1,
+  "locales": {
+    "ko": [
+      {
+        "id": "about",
+        "question": "FO PICK은 어떤 앱인가요?",
+        "answer": "FO PICK(포픽)은 36장의 카드를 직접 고르고 주제와 기분에 맞는 이야기를 읽는 재미와 자기성찰용 앱입니다. 한국 전통 달력 해석이나 시즌 이벤트는 아직 제공하지 않습니다."
+      },
+      {
+        "id": "predictions",
+        "question": "카드 결과는 미래를 보장하나요?",
+        "answer": "아니요. 결과는 자신의 상황을 돌아보는 하나의 관점입니다. 미래를 확정하거나 전문적인 조언을 대신하지 않으며, 최종 선택은 자신의 몫입니다."
+      },
+      {
+        "id": "reading-modes",
+        "question": "한 장·세 장·FO PICK은 어떻게 다른가요?",
+        "answer": "한 장은 하나의 상징을 깊게 읽습니다. 세 장은 지금의 흐름·놓치고 있는 것·오늘의 방향을 연결합니다. FO PICK은 전체 36장에서 네 장을 골라 흐름·변수·선택·방향을 종합합니다. 방향은 확정된 결말이 아닙니다."
+      },
+      {
+        "id": "history",
+        "question": "기록은 어떻게 저장되나요?",
+        "answer": "완성된 기본·상세 결과는 이 기기에 저장됩니다. 다시 열 때 해석을 생성하지 않고 저장된 원문을 보여 줍니다. 앱 데이터 삭제나 앱 삭제 시 기록이 사라질 수 있습니다. 저장 실패 시 결과 화면에서 다시 저장할 수 있습니다."
+      },
+      {
+        "id": "delete-history",
+        "question": "기록을 삭제할 수 있나요?",
+        "answer": "기록 상세에서 한 건씩, 설정에서 전체 기록을 삭제할 수 있습니다. 삭제는 되돌릴 수 없고 사용한 리딩 횟수도 복구되지 않습니다."
+      },
+      {
+        "id": "usage",
+        "question": "하루에 몇 번 사용할 수 있나요?",
+        "answer": "일반 리딩은 오전·오후·저녁에 각각 한 장 또는 세 장 중 하나를 이용할 수 있습니다. FO PICK은 별도로 하루 한 번입니다. 일반 3회를 모두 사용하면 보상형 광고 완료 후 일반 보너스 1회를 이용할 수 있습니다. 보너스는 하루 1회이며 FO PICK 추가 이용에는 쓰이지 않습니다."
+      },
+      {
+        "id": "time-slots",
+        "question": "시간대와 하루의 기준은 무엇인가요?",
+        "answer": "기기 현지 시각으로 오전 06:00~12:00, 오후 12:00~18:00, 저녁 18:00~다음날 06:00입니다. 이용일은 06:00에 바뀝니다. 카드를 모두 골라 결과가 확정될 때만 횟수가 사용되며, 보너스는 다음 이용일로 이월되지 않습니다."
+      },
+      {
+        "id": "details",
+        "question": "상세 해석은 어떻게 열 수 있나요?",
+        "answer": "기본 해석은 무료입니다. 선택형 광고 1회를 완료하면 해당 기록의 상세가 열리며 기록이 남아 있는 동안 다시 광고를 요구하지 않습니다. 기본과 상세는 함께 생성되며 접근 방식이 결과를 바꾸지 않습니다."
+      },
+      {
+        "id": "rewarded",
+        "question": "보상형 광고는 무엇인가요?",
+        "answer": "원할 때 광고를 완료하고 해당 리딩의 상세 또는 조건을 충족한 일반 보너스 1회를 받는 방식입니다. 완료 전에 닫거나 광고를 불러오지 못하면 보상이 지급되지 않습니다. 보상 저장만 실패했다면 다시 시청하지 않고 저장을 재시도합니다. FO PICK 추가 추첨 보상은 없습니다."
+      },
+      {
+        "id": "premium",
+        "question": "FO PICK v1은 어떻게 이용하나요?",
+        "answer": "기본 해석은 무료입니다. 상세 해석과 조건을 충족한 일반 보너스 1회는 선택형 보상 광고를 완료해 이용합니다. 광고는 카드 확률·의미·해석 품질을 바꾸지 않습니다."
+      },
+      {
+        "id": "subscription",
+        "question": "광고를 꼭 봐야 하나요?",
+        "answer": "아니요. 무료 이용 횟수 안에서 기본 해석은 광고 없이 읽을 수 있습니다. 상세 해석이나 일반 보너스가 필요할 때만 광고 시청을 선택하세요."
+      },
+      {
+        "id": "restore",
+        "question": "광고 보상 저장에 실패하면 어떻게 하나요?",
+        "answer": "광고 완료 후 보상 저장만 실패했다면 앱의 보상 다시 저장을 눌러 주세요. 이미 받은 보상을 위해 광고를 다시 볼 필요는 없습니다. 앱이 다시 열리거나 전경으로 돌아오면 남은 저장 작업을 재시도합니다."
+      }
+    ],
+    "en": [
+      {
+        "id": "about",
+        "question": "What is FO PICK?",
+        "answer": "FO PICK is a card reading app for enjoyment and self-reflection. Choose from 36 cards and explore a reading shaped by your topic and mood. Korean traditional calendar readings and seasonal events are not available."
+      },
+      {
+        "id": "predictions",
+        "question": "Do the cards guarantee the future?",
+        "answer": "No. A reading offers a perspective on your situation, not a certain prediction or a substitute for professional advice. Your decisions remain yours."
+      },
+      {
+        "id": "reading-modes",
+        "question": "How do Single, Triple and FO PICK differ?",
+        "answer": "Single explores one symbol. Triple connects the current flow, what you may be missing, and a direction for today. FO PICK lets you choose four of 36 cards to explore flow, influences, your choice and direction together. Direction is a suggested approach, not a guaranteed outcome."
+      },
+      {
+        "id": "history",
+        "question": "How are readings saved?",
+        "answer": "Completed basic and detailed readings are saved on this device. Reopening a record displays the saved text without generating a new reading. Deleting app data or uninstalling can remove your history. If saving fails, you can retry from the result screen."
+      },
+      {
+        "id": "delete-history",
+        "question": "Can I delete my history?",
+        "answer": "Delete one reading from its history page or all readings in Settings. Deletion cannot be undone and does not restore used readings."
+      },
+      {
+        "id": "usage",
+        "question": "How many readings can I have each day?",
+        "answer": "Choose either Single or Triple once in each morning, afternoon and evening slot. FO PICK is available once per usage day separately. After using all three regular slots, completing a rewarded ad provides one regular bonus reading. The bonus is limited to one per usage day and cannot be used for another FO PICK draw."
+      },
+      {
+        "id": "time-slots",
+        "question": "When do the time slots and usage day change?",
+        "answer": "Using your device’s local time: morning is 06:00–12:00, afternoon 12:00–18:00, and evening 18:00–06:00 the next morning. A new usage day starts at 06:00. A reading is counted only when card selection is complete and the result is finalized. Bonuses do not carry over."
+      },
+      {
+        "id": "details",
+        "question": "How do I open a detailed reading?",
+        "answer": "Basic readings are free. Completing one optional ad unlocks the details of that record for as long as you keep it. Basic and detailed text are generated together; how you unlock them never changes the reading."
+      },
+      {
+        "id": "rewarded",
+        "question": "What is a rewarded ad?",
+        "answer": "An optional completed ad unlocks that reading’s details or one eligible regular bonus. Closing early or failing to load an ad gives no reward. If only saving the reward fails, retry saving without watching again. There is no ad reward for another FO PICK draw."
+      },
+      {
+        "id": "premium",
+        "question": "How does FO PICK v1 work?",
+        "answer": "Basic readings are free. Complete an optional rewarded ad to open a detailed reading or receive an eligible regular bonus. Ads never change card probabilities, meanings or reading quality."
+      },
+      {
+        "id": "subscription",
+        "question": "Do I have to watch ads?",
+        "answer": "No. Within the free usage limits, basic readings do not require ads. Choose to watch only when you want details or an eligible regular bonus."
+      },
+      {
+        "id": "restore",
+        "question": "What if saving an ad reward fails?",
+        "answer": "If the ad finished but saving its reward failed, choose Retry saving reward in the app. You do not need to watch again for a reward already earned. Pending saves are retried when the app opens or returns to the foreground."
+      }
+    ],
+    "ja": [
+      {
+        "id": "about",
+        "question": "FO PICKはどんなアプリですか？",
+        "answer": "36枚のカードから自分で選び、テーマと気分に沿った物語を読む、楽しみと自己理解のためのアプリです。韓国の伝統暦に基づく解釈や季節イベントは提供していません。"
+      },
+      {
+        "id": "predictions",
+        "question": "未来を保証するものですか？",
+        "answer": "いいえ。自分の状況を振り返るための一つの視点です。未来を断定したり、専門家の助言に代わったりするものではありません。選択はいつもご自身のものです。"
+      },
+      {
+        "id": "reading-modes",
+        "question": "1枚・3枚・FO PICKの違いは？",
+        "answer": "1枚では一つの象徴を掘り下げます。3枚では今の流れ・見落としていること・今日の方向をつなぎます。FO PICKでは36枚から4枚を選び、流れ・影響する要素・自分の選択・方向を総合して読みます。方向は確定した結末ではありません。"
+      },
+      {
+        "id": "history",
+        "question": "履歴はどう保存されますか？",
+        "answer": "完成した基本・詳細の文章をこの端末に保存します。履歴を開いても再生成せず、保存時の原文を表示します。アプリやアプリデータを削除すると履歴が失われる場合があります。保存に失敗した場合は結果画面から再試行できます。"
+      },
+      {
+        "id": "delete-history",
+        "question": "履歴を削除できますか？",
+        "answer": "履歴の詳細から1件ずつ、設定から全件を削除できます。削除は取り消せず、利用済みの回数も戻りません。"
+      },
+      {
+        "id": "usage",
+        "question": "1日に何回利用できますか？",
+        "answer": "朝・昼・夜の各時間帯に、1枚または3枚を1回利用できます。FO PICKは別枠で利用日ごとに1回です。通常の3回をすべて利用した後、リワード広告を最後まで見ると通常ボーナスを1回利用できます。ボーナスは利用日ごとに1回で、FO PICKの追加抽選には使えません。"
+      },
+      {
+        "id": "time-slots",
+        "question": "時間帯と利用日の区切りは？",
+        "answer": "端末の現地時刻で朝06:00〜12:00、昼12:00〜18:00、夜18:00〜翌06:00です。利用日は06:00に切り替わります。カードをすべて選び、結果が確定した時点で回数を消費します。ボーナスの翌日への持ち越しはありません。"
+      },
+      {
+        "id": "details",
+        "question": "詳細はどう開きますか？",
+        "answer": "基本の解釈は無料です。任意の広告を1回最後まで見ると、その履歴が残っている間は詳細を繰り返し開けます。基本と詳細は同時に生成され、開き方によって結果は変わりません。"
+      },
+      {
+        "id": "rewarded",
+        "question": "リワード広告とは？",
+        "answer": "希望する場合に広告を完了し、その履歴の詳細、または条件を満たした通常ボーナス1回を受け取る仕組みです。途中で閉じた場合や読み込めない場合は付与されません。報酬の保存だけに失敗した場合は再視聴せず保存を再試行します。FO PICKの追加抽選はありません。"
+      },
+      {
+        "id": "premium",
+        "question": "FO PICK v1の利用方法は？",
+        "answer": "基本の解釈は無料です。任意のリワード広告を完了すると、詳細の解釈、または条件を満たした通常ボーナス1回を利用できます。広告はカードの確率・意味・文章の品質を変えません。"
+      },
+      {
+        "id": "subscription",
+        "question": "広告を必ず見る必要がありますか？",
+        "answer": "いいえ。無料の利用回数内で、基本の解釈は広告なしで読めます。詳細や条件を満たした通常ボーナスが必要な場合にだけ、視聴を選んでください。"
+      },
+      {
+        "id": "restore",
+        "question": "広告報酬の保存に失敗したら？",
+        "answer": "広告が完了し、報酬の保存だけに失敗した場合は、アプリの報酬保存の再試行を選んでください。獲得済みの報酬のために再視聴する必要はありません。アプリの起動時や画面に戻った際にも、未完了の保存を再試行します。"
+      }
+    ],
+    "es": [
+      {
+        "id": "about",
+        "question": "¿Qué es FO PICK?",
+        "answer": "Es una app para disfrutar y reflexionar. Elige entre 36 cartas y explora una lectura según tu tema y estado de ánimo. No ofrece lecturas del calendario tradicional coreano ni eventos de temporada."
+      },
+      {
+        "id": "predictions",
+        "question": "¿Las cartas garantizan el futuro?",
+        "answer": "No. Ofrecen una perspectiva para reflexionar sobre tu situación. No son predicciones seguras ni sustituyen el asesoramiento profesional. Tú decides."
+      },
+      {
+        "id": "reading-modes",
+        "question": "¿En qué se diferencian los tres modos?",
+        "answer": "Una carta profundiza en un símbolo. Tres cartas conectan el flujo actual, lo que puedes pasar por alto y una dirección para hoy. FO PICK reúne cuatro cartas de las 36: flujo, influencias, tu elección y dirección. La dirección propone una forma de actuar, no un desenlace garantizado."
+      },
+      {
+        "id": "history",
+        "question": "¿Cómo se guardan las lecturas?",
+        "answer": "Los textos básicos y detallados se guardan en este dispositivo. Al abrir el historial se muestra el texto original sin generar otra lectura. Borrar los datos o desinstalar puede eliminar el historial. Si falla el guardado, puedes reintentarlo desde el resultado."
+      },
+      {
+        "id": "delete-history",
+        "question": "¿Puedo borrar el historial?",
+        "answer": "Puedes borrar una lectura desde su detalle o todas desde Ajustes. No se puede deshacer ni recuperar lecturas consumidas."
+      },
+      {
+        "id": "usage",
+        "question": "¿Cuántas lecturas puedo hacer al día?",
+        "answer": "Puedes elegir una lectura de una o tres cartas en cada franja de mañana, tarde y noche. FO PICK tiene un uso diario aparte. Tras consumir las tres lecturas normales, completar un anuncio con recompensa permite una lectura normal extra. El límite es un extra por día de uso y no sirve para otra tirada FO PICK."
+      },
+      {
+        "id": "time-slots",
+        "question": "¿Cuáles son las franjas horarias?",
+        "answer": "Según la hora local del dispositivo: mañana de 06:00 a 12:00, tarde de 12:00 a 18:00 y noche de 18:00 a 06:00 del día siguiente. El día de uso empieza a las 06:00. Solo se consume una lectura cuando terminas de elegir y el resultado queda fijado. Los extras no se acumulan para el día siguiente."
+      },
+      {
+        "id": "details",
+        "question": "¿Cómo abro una lectura detallada?",
+        "answer": "La lectura básica es gratuita. Completar un anuncio opcional desbloquea los detalles de ese registro mientras lo conserves. Los textos básico y detallado se generan juntos; la forma de acceder no cambia el resultado."
+      },
+      {
+        "id": "rewarded",
+        "question": "¿Qué es un anuncio con recompensa?",
+        "answer": "Es un anuncio opcional que, al completarlo, abre los detalles de esa lectura o concede un extra normal si cumples las condiciones. Si lo cierras antes o no carga, no hay recompensa. Si solo falla el guardado, reinténtalo sin volver a verlo. No permite otra tirada FO PICK."
+      },
+      {
+        "id": "premium",
+        "question": "¿Cómo funciona FO PICK v1?",
+        "answer": "La lectura básica es gratuita. Completa un anuncio opcional para abrir los detalles o recibir un extra normal si cumples las condiciones. Los anuncios no cambian las probabilidades, los significados ni la calidad de la lectura."
+      },
+      {
+        "id": "subscription",
+        "question": "¿Tengo que ver anuncios?",
+        "answer": "No. Dentro de los límites gratuitos puedes leer la interpretación básica sin anuncios. Elige verlos solo si deseas los detalles o un extra normal y cumples las condiciones."
+      },
+      {
+        "id": "restore",
+        "question": "¿Qué hago si no se guarda la recompensa?",
+        "answer": "Si terminaste el anuncio pero falló el guardado, pulsa la opción de volver a guardar la recompensa. No necesitas ver otro anuncio por una recompensa ya obtenida. La app reintenta los guardados pendientes al abrirse o volver a primer plano."
+      }
+    ],
+    "pt": [
+      {
+        "id": "about",
+        "question": "O que é o FO PICK?",
+        "answer": "É um app para diversão e reflexão pessoal. Escolha entre 36 cartas e leia uma interpretação conforme o tema e seu estado de espírito. Não há leituras do calendário tradicional coreano nem eventos sazonais."
+      },
+      {
+        "id": "predictions",
+        "question": "As cartas garantem o futuro?",
+        "answer": "Não. A leitura oferece uma perspectiva para refletir sobre sua situação. Não é uma previsão garantida nem substitui orientação profissional. As decisões continuam sendo suas."
+      },
+      {
+        "id": "reading-modes",
+        "question": "Qual é a diferença entre os três modos?",
+        "answer": "Uma carta aprofunda um símbolo. Três cartas conectam o fluxo atual, o que pode passar despercebido e uma direção para hoje. No FO PICK, quatro cartas entre as 36 relacionam fluxo, influências, sua escolha e direção. A direção sugere uma abordagem, não um desfecho garantido."
+      },
+      {
+        "id": "history",
+        "question": "Como as leituras são salvas?",
+        "answer": "Os textos básicos e detalhados ficam neste dispositivo. Ao abrir o histórico, você lê o texto original, sem gerar outra interpretação. Limpar os dados ou desinstalar pode apagar o histórico. Se o salvamento falhar, tente novamente na tela do resultado."
+      },
+      {
+        "id": "delete-history",
+        "question": "Posso apagar o histórico?",
+        "answer": "Apague uma leitura nos detalhes do histórico ou todas em Configurações. A exclusão é irreversível e não devolve leituras utilizadas."
+      },
+      {
+        "id": "usage",
+        "question": "Quantas leituras posso fazer por dia?",
+        "answer": "Você pode escolher uma ou três cartas uma vez em cada período: manhã, tarde e noite. O FO PICK tem uma utilização diária separada. Depois das três leituras comuns, concluir um anúncio com recompensa libera uma leitura comum extra. O limite é um bônus por dia de uso e ele não serve para outra tiragem FO PICK."
+      },
+      {
+        "id": "time-slots",
+        "question": "Como funcionam os horários?",
+        "answer": "Pelo horário local do dispositivo: manhã das 06:00 às 12:00, tarde das 12:00 às 18:00 e noite das 18:00 às 06:00 do dia seguinte. O dia de uso começa às 06:00. A leitura só é consumida quando todas as cartas são escolhidas e o resultado fica definido. O bônus não passa para o dia seguinte."
+      },
+      {
+        "id": "details",
+        "question": "Como abro a leitura detalhada?",
+        "answer": "A leitura básica é gratuita. Concluir um anúncio opcional libera os detalhes daquele registro enquanto ele for mantido. Os textos são gerados juntos; a forma de acesso não muda o resultado."
+      },
+      {
+        "id": "rewarded",
+        "question": "O que é um anúncio com recompensa?",
+        "answer": "É um anúncio opcional que, quando concluído, libera os detalhes daquela leitura ou um bônus comum, se elegível. Fechar antes do fim ou não conseguir carregar não gera recompensa. Se apenas o salvamento falhar, tente salvar de novo sem rever o anúncio. Não há sorteio extra de FO PICK."
+      },
+      {
+        "id": "premium",
+        "question": "Como funciona o FO PICK v1?",
+        "answer": "A leitura básica é gratuita. Conclua um anúncio opcional para abrir os detalhes ou receber um bônus comum, se elegível. Os anúncios não mudam as probabilidades, os significados ou a qualidade da leitura."
+      },
+      {
+        "id": "subscription",
+        "question": "Preciso assistir a anúncios?",
+        "answer": "Não. Dentro dos limites gratuitos, você pode ler a interpretação básica sem anúncios. Assista apenas se quiser os detalhes ou um bônus comum e cumprir as condições."
+      },
+      {
+        "id": "restore",
+        "question": "E se a recompensa não for salva?",
+        "answer": "Se o anúncio terminou, mas o salvamento falhou, escolha tentar salvar a recompensa novamente. Não é preciso assistir de novo por uma recompensa já recebida. O app tenta salvar os registros pendentes ao abrir ou voltar ao primeiro plano."
+      }
+    ],
+    "fr": [
+      {
+        "id": "about",
+        "question": "Qu’est-ce que FO PICK ?",
+        "answer": "Une application de cartes pour le plaisir et la réflexion personnelle. Choisissez parmi 36 cartes une lecture adaptée à votre thème et à votre humeur. Les lectures du calendrier traditionnel coréen et les événements saisonniers ne sont pas proposés."
+      },
+      {
+        "id": "predictions",
+        "question": "Les cartes garantissent-elles l’avenir ?",
+        "answer": "Non. Une lecture apporte un point de vue sur votre situation, sans prédiction certaine ni remplacement d’un avis professionnel. Vos choix vous appartiennent."
+      },
+      {
+        "id": "reading-modes",
+        "question": "Quelle est la différence entre les trois modes ?",
+        "answer": "Une carte approfondit un symbole. Trois cartes relient la dynamique actuelle, ce qui vous échappe peut-être et une direction pour aujourd’hui. FO PICK associe quatre cartes choisies parmi 36 : dynamique, influences, votre choix et direction. La direction suggère une approche, pas une issue garantie."
+      },
+      {
+        "id": "history",
+        "question": "Comment les lectures sont-elles enregistrées ?",
+        "answer": "Les textes de base et détaillés sont conservés sur cet appareil. L’historique affiche le texte enregistré sans recréer la lecture. Effacer les données ou désinstaller peut supprimer l’historique. Si l’enregistrement échoue, réessayez depuis le résultat."
+      },
+      {
+        "id": "delete-history",
+        "question": "Puis-je supprimer l’historique ?",
+        "answer": "Supprimez une lecture depuis sa page ou toutes les lectures dans les réglages. La suppression est irréversible et ne rend pas les lectures utilisées."
+      },
+      {
+        "id": "usage",
+        "question": "Combien de lectures puis-je faire par jour ?",
+        "answer": "Une lecture d’une ou trois cartes est disponible le matin, l’après-midi et le soir. FO PICK dispose d’une lecture quotidienne séparée. Après les trois lectures ordinaires, terminer une publicité récompensée donne accès à une lecture ordinaire bonus. La limite est d’un bonus par journée d’utilisation ; il ne permet pas un tirage FO PICK supplémentaire."
+      },
+      {
+        "id": "time-slots",
+        "question": "Quels sont les créneaux horaires ?",
+        "answer": "À l’heure locale de l’appareil : matin de 06:00 à 12:00, après-midi de 12:00 à 18:00 et soir de 18:00 à 06:00 le lendemain. La journée d’utilisation commence à 06:00. Une lecture n’est comptée qu’une fois toutes les cartes choisies et le résultat finalisé. Le bonus n’est pas reporté."
+      },
+      {
+        "id": "details",
+        "question": "Comment ouvrir une lecture détaillée ?",
+        "answer": "La lecture de base est gratuite. Terminer une publicité facultative ouvre les détails de ce résultat tant que vous le conservez. Les deux textes sont créés ensemble ; le mode d’accès ne change jamais la lecture."
+      },
+      {
+        "id": "rewarded",
+        "question": "Qu’est-ce qu’une publicité récompensée ?",
+        "answer": "Une publicité facultative terminée ouvre les détails de la lecture ou un bonus ordinaire si les conditions sont remplies. La fermer avant la fin ou ne pas pouvoir la charger ne donne pas de récompense. Si seul l’enregistrement échoue, réessayez sans la revoir. Aucun tirage FO PICK supplémentaire n’est proposé."
+      },
+      {
+        "id": "premium",
+        "question": "Comment fonctionne FO PICK v1 ?",
+        "answer": "La lecture de base est gratuite. Terminez une publicité facultative pour ouvrir les détails ou obtenir un bonus ordinaire si les conditions sont remplies. Les publicités ne changent ni les probabilités, ni les significations, ni la qualité des lectures."
+      },
+      {
+        "id": "subscription",
+        "question": "Dois-je regarder des publicités ?",
+        "answer": "Non. Dans les limites gratuites, la lecture de base ne nécessite aucune publicité. Choisissez d’en regarder uniquement pour les détails ou un bonus ordinaire auquel vous avez droit."
+      },
+      {
+        "id": "restore",
+        "question": "Que faire si la récompense n’est pas enregistrée ?",
+        "answer": "Si la publicité est terminée mais que l’enregistrement échoue, choisissez de réessayer l’enregistrement de la récompense. Inutile de revoir une publicité pour une récompense déjà gagnée. L’application réessaie les enregistrements en attente à l’ouverture ou au retour au premier plan."
+      }
+    ],
+    "de": [
+      {
+        "id": "about",
+        "question": "Was ist FO PICK?",
+        "answer": "FO PICK ist eine Karten-App zur Unterhaltung und Selbstreflexion. Du wählst aus 36 Karten und liest eine Deutung zu deinem Thema und deiner Stimmung. Deutungen nach dem traditionellen koreanischen Kalender und saisonale Ereignisse werden nicht angeboten."
+      },
+      {
+        "id": "predictions",
+        "question": "Sagen die Karten die Zukunft sicher voraus?",
+        "answer": "Nein. Eine Deutung bietet einen Blick auf deine Situation. Sie ist weder eine sichere Vorhersage noch ein Ersatz für fachliche Beratung. Du triffst deine eigenen Entscheidungen."
+      },
+      {
+        "id": "reading-modes",
+        "question": "Wie unterscheiden sich die drei Modi?",
+        "answer": "Eine Karte vertieft ein Symbol. Drei Karten verbinden die aktuelle Entwicklung, mögliche blinde Flecken und eine Richtung für heute. FO PICK verbindet vier aus 36 Karten: Entwicklung, Einflüsse, deine Entscheidung und Richtung. Die Richtung ist ein möglicher Ansatz, kein zugesichertes Ergebnis."
+      },
+      {
+        "id": "history",
+        "question": "Wie werden Deutungen gespeichert?",
+        "answer": "Die kurzen und ausführlichen Texte werden auf diesem Gerät gespeichert. Beim Öffnen des Verlaufs erscheint der gespeicherte Text ohne neue Berechnung. Das Löschen von App-Daten oder die Deinstallation kann den Verlauf entfernen. Nach einem Speicherfehler kannst du es auf der Ergebnisseite erneut versuchen."
+      },
+      {
+        "id": "delete-history",
+        "question": "Kann ich den Verlauf löschen?",
+        "answer": "Du kannst eine Deutung auf ihrer Detailseite oder alle in den Einstellungen löschen. Das ist nicht rückgängig zu machen und gibt verbrauchte Deutungen nicht zurück."
+      },
+      {
+        "id": "usage",
+        "question": "Wie viele Deutungen gibt es pro Tag?",
+        "answer": "Morgens, nachmittags und abends ist jeweils eine Deutung mit einer oder drei Karten möglich. FO PICK ist zusätzlich einmal pro Nutzungstag verfügbar. Nach allen drei regulären Deutungen ermöglicht eine vollständig angesehene Werbung eine reguläre Bonusdeutung. Es gibt höchstens einen Bonus pro Nutzungstag, keine zusätzliche FO PICK-Ziehung."
+      },
+      {
+        "id": "time-slots",
+        "question": "Wann wechseln Zeitfenster und Nutzungstag?",
+        "answer": "Nach der Ortszeit des Geräts: morgens 06:00–12:00, nachmittags 12:00–18:00, abends 18:00–06:00 des Folgetags. Der Nutzungstag beginnt um 06:00. Eine Deutung zählt erst, wenn alle Karten gewählt sind und das Ergebnis feststeht. Ein Bonus wird nicht auf den nächsten Tag übertragen."
+      },
+      {
+        "id": "details",
+        "question": "Wie öffne ich ausführliche Deutungen?",
+        "answer": "Die kurze Deutung ist kostenlos. Eine freiwillige, vollständig angesehene Werbung schaltet die ausführliche Deutung dieses Eintrags frei, solange du ihn behältst. Beide Texte entstehen zusammen; der Zugang verändert das Ergebnis nicht."
+      },
+      {
+        "id": "rewarded",
+        "question": "Was ist Werbung mit Belohnung?",
+        "answer": "Eine freiwillig bis zum Ende angesehene Werbung öffnet die ausführliche Deutung oder einen berechtigten regulären Bonus. Vorzeitiges Schließen oder ein Ladefehler gewährt keine Belohnung. Scheitert nur das Speichern, versuche es ohne erneutes Ansehen nochmals. Zusätzliche FO PICK-Ziehungen gibt es nicht."
+      },
+      {
+        "id": "premium",
+        "question": "Wie funktioniert FO PICK v1?",
+        "answer": "Die kurze Deutung ist kostenlos. Eine freiwillig vollständig angesehene Werbung öffnet die ausführliche Deutung oder einen regulären Bonus, wenn die Voraussetzungen erfüllt sind. Werbung verändert weder Kartenwahrscheinlichkeiten noch Bedeutungen oder Textqualität."
+      },
+      {
+        "id": "subscription",
+        "question": "Muss ich Werbung ansehen?",
+        "answer": "Nein. Innerhalb der kostenlosen Nutzungsgrenzen kannst du die kurze Deutung ohne Werbung lesen. Werbung ist nur für die ausführliche Deutung oder einen berechtigten regulären Bonus nötig."
+      },
+      {
+        "id": "restore",
+        "question": "Was passiert bei einem Speicherfehler der Belohnung?",
+        "answer": "Wenn die Werbung vollständig angesehen wurde, aber das Speichern scheitert, wähle in der App die erneute Speicherung der Belohnung. Du musst für eine bereits verdiente Belohnung keine weitere Werbung ansehen. Beim Öffnen oder bei der Rückkehr in den Vordergrund versucht die App ausstehende Speicherungen erneut."
+      }
+    ],
+    "it": [
+      {
+        "id": "about",
+        "question": "Che cos’è FO PICK?",
+        "answer": "È un’app di carte per svago e riflessione personale. Scegli tra 36 carte e leggi un’interpretazione legata al tema e al tuo stato d’animo. Non offre letture del calendario tradizionale coreano né eventi stagionali."
+      },
+      {
+        "id": "predictions",
+        "question": "Le carte garantiscono il futuro?",
+        "answer": "No. La lettura propone un punto di vista sulla tua situazione, non una previsione certa né un’alternativa a un parere professionale. Le decisioni restano tue."
+      },
+      {
+        "id": "reading-modes",
+        "question": "Come si distinguono le tre modalità?",
+        "answer": "Una carta approfondisce un simbolo. Tre carte collegano il flusso attuale, ciò che potresti non vedere e una direzione per oggi. FO PICK unisce quattro carte scelte tra 36: flusso, influenze, la tua scelta e direzione. La direzione indica un possibile approccio, non un esito garantito."
+      },
+      {
+        "id": "history",
+        "question": "Come vengono salvate le letture?",
+        "answer": "I testi di base e dettagliati vengono salvati su questo dispositivo. La cronologia mostra il testo originale senza generare una nuova lettura. Cancellare i dati o disinstallare può eliminare la cronologia. Se il salvataggio fallisce, riprova dalla schermata del risultato."
+      },
+      {
+        "id": "delete-history",
+        "question": "Posso eliminare la cronologia?",
+        "answer": "Puoi eliminare una lettura dalla sua pagina o tutte dalle Impostazioni. L’eliminazione è definitiva e non restituisce le letture utilizzate."
+      },
+      {
+        "id": "usage",
+        "question": "Quante letture posso fare al giorno?",
+        "answer": "Puoi scegliere una lettura di una o tre carte una volta al mattino, al pomeriggio e alla sera. FO PICK è disponibile una volta per giornata d’uso, separatamente. Dopo le tre letture ordinarie, completare un annuncio con premio permette un bonus ordinario. Il limite è un bonus per giornata d’uso e non consente un’altra estrazione FO PICK."
+      },
+      {
+        "id": "time-slots",
+        "question": "Quali sono le fasce orarie?",
+        "answer": "Secondo l’ora locale del dispositivo: mattino 06:00–12:00, pomeriggio 12:00–18:00 e sera 18:00–06:00 del giorno dopo. La giornata d’uso inizia alle 06:00. La lettura viene conteggiata solo al completamento della scelta delle carte, quando il risultato è definitivo. I bonus non si trasferiscono al giorno seguente."
+      },
+      {
+        "id": "details",
+        "question": "Come apro una lettura dettagliata?",
+        "answer": "La lettura di base è gratuita. Completare un annuncio facoltativo sblocca i dettagli di quel risultato finché lo conservi. I testi vengono generati insieme e la modalità di accesso non cambia il risultato."
+      },
+      {
+        "id": "rewarded",
+        "question": "Che cos’è un annuncio con premio?",
+        "answer": "Un annuncio facoltativo completato apre i dettagli di quella lettura o un bonus ordinario, se ne hai diritto. Chiuderlo prima della fine o non riuscire a caricarlo non dà premi. Se fallisce solo il salvataggio, riprova senza riguardarlo. Non ci sono estrazioni FO PICK aggiuntive."
+      },
+      {
+        "id": "premium",
+        "question": "Come funziona FO PICK v1?",
+        "answer": "La lettura di base è gratuita. Completa un annuncio facoltativo per aprire i dettagli o ricevere un bonus ordinario, se ne hai diritto. Gli annunci non cambiano probabilità, significati o qualità delle letture."
+      },
+      {
+        "id": "subscription",
+        "question": "Devo guardare gli annunci?",
+        "answer": "No. Entro i limiti gratuiti, la lettura di base non richiede annunci. Scegli di guardarli solo per i dettagli o per un bonus ordinario di cui soddisfi le condizioni."
+      },
+      {
+        "id": "restore",
+        "question": "Cosa faccio se il premio non viene salvato?",
+        "answer": "Se l’annuncio è terminato ma il salvataggio fallisce, scegli di riprovare a salvare il premio. Non serve riguardare un annuncio per un premio già ottenuto. L’app riprova i salvataggi in sospeso all’apertura o quando torna in primo piano."
+      }
+    ],
+    "zh-Hans": [
+      {
+        "id": "about",
+        "question": "FO PICK是什么应用？",
+        "answer": "这是一款供娱乐和自我反思使用的卡牌应用。你可以从36张牌中自行选择，阅读与主题和心情相呼应的解读。目前不提供韩国传统历法解读或季节活动。"
+      },
+      {
+        "id": "predictions",
+        "question": "卡牌能保证未来吗？",
+        "answer": "不能。解读只是帮助你看待当前处境的一个视角，并非确定的预言，也不能替代专业建议。最终选择仍由你自己决定。"
+      },
+      {
+        "id": "reading-modes",
+        "question": "单张、三张和FO PICK有什么区别？",
+        "answer": "单张深入解读一个象征。三张连接当前走向、可能忽略的事和今天的方向。FO PICK从36张牌中选出4张，综合解读走向、影响因素、自己的选择和方向。方向是可参考的做法，并非注定的结局。"
+      },
+      {
+        "id": "history",
+        "question": "记录如何保存？",
+        "answer": "完成的基础和详细解读保存在本设备上。再次打开时显示保存的原文，不会重新生成。清除应用数据或卸载可能导致记录丢失。保存失败时可在结果页重试。"
+      },
+      {
+        "id": "delete-history",
+        "question": "可以删除记录吗？",
+        "answer": "可以在记录详情中逐条删除，也可以在设置中全部删除。删除无法撤销，已使用的次数不会恢复。"
+      },
+      {
+        "id": "usage",
+        "question": "每天可以使用几次？",
+        "answer": "上午、下午、晚间各可选择一次单张或三张解读。FO PICK另有每个使用日一次的额度。用完三次普通解读后，完整观看激励广告可获得一次普通额外解读。每个使用日仅限一次额外解读，不能用于FO PICK额外抽牌。"
+      },
+      {
+        "id": "time-slots",
+        "question": "时段和使用日如何划分？",
+        "answer": "按设备当地时间：上午06:00至12:00，下午12:00至18:00，晚间18:00至次日06:00。使用日于06:00更新。只有选完全部卡牌、结果确定后才消耗次数。额外次数不结转到下一个使用日。"
+      },
+      {
+        "id": "details",
+        "question": "如何打开详细解读？",
+        "answer": "基础解读免费。自愿完整观看一次广告后，该记录保留期间可反复打开其详细解读。基础和详细内容同时生成，解锁方式不会改变结果。"
+      },
+      {
+        "id": "rewarded",
+        "question": "什么是激励广告？",
+        "answer": "你可以自愿完成广告，解锁本次记录的详细解读，或在符合条件时获得一次普通额外解读。提前关闭或加载失败不会获得奖励。若只是奖励保存失败，可直接重试保存，无须再看广告。广告不提供FO PICK额外抽牌。"
+      },
+      {
+        "id": "premium",
+        "question": "FO PICK v1如何使用？",
+        "answer": "基础解读免费。自愿完整观看激励广告可打开详细解读，或在符合条件时获得一次普通额外解读。广告不会改变卡牌概率、含义或解读质量。"
+      },
+      {
+        "id": "subscription",
+        "question": "必须看广告吗？",
+        "answer": "不必。在免费使用次数内，基础解读无需广告。只有需要详细解读或符合条件的普通额外解读时，才选择观看广告。"
+      },
+      {
+        "id": "restore",
+        "question": "广告奖励保存失败怎么办？",
+        "answer": "如果广告已完成，只是奖励保存失败，请在应用中重试保存奖励。已获得的奖励无需再次观看广告。应用启动或回到前台时，也会重试未完成的保存。"
+      }
+    ],
+    "zh-Hant": [
+      {
+        "id": "about",
+        "question": "FO PICK是什麼應用程式？",
+        "answer": "這是一款供娛樂和自我反思使用的卡牌應用程式。你可以從36張牌中自行選擇，閱讀與主題和心情相呼應的解讀。目前不提供韓國傳統曆法解讀或季節活動。"
+      },
+      {
+        "id": "predictions",
+        "question": "卡牌能保證未來嗎？",
+        "answer": "不能。解讀只是幫助你看待目前處境的一個視角，並非確定的預言，也不能取代專業建議。最終選擇仍由你自己決定。"
+      },
+      {
+        "id": "reading-modes",
+        "question": "單張、三張和FO PICK有什麼差別？",
+        "answer": "單張深入解讀一個象徵。三張連結目前走向、可能忽略的事和今天的方向。FO PICK從36張牌中選出4張，綜合解讀走向、影響因素、自己的選擇和方向。方向是可參考的做法，並非注定的結局。"
+      },
+      {
+        "id": "history",
+        "question": "紀錄如何儲存？",
+        "answer": "完成的基本和詳細解讀儲存在本裝置上。再次開啟時顯示儲存的原文，不會重新生成。清除應用程式資料或解除安裝可能導致紀錄遺失。儲存失敗時可在結果頁重試。"
+      },
+      {
+        "id": "delete-history",
+        "question": "可以刪除紀錄嗎？",
+        "answer": "可以在紀錄詳細頁逐筆刪除，也可以在設定中全部刪除。刪除無法復原，已使用的次數不會恢復。"
+      },
+      {
+        "id": "usage",
+        "question": "每天可以使用幾次？",
+        "answer": "上午、下午、晚間各可選擇一次單張或三張解讀。FO PICK另有每個使用日一次的額度。用完三次一般解讀後，完整觀看獎勵廣告可獲得一次一般額外解讀。每個使用日僅限一次額外解讀，不能用於FO PICK額外抽牌。"
+      },
+      {
+        "id": "time-slots",
+        "question": "時段和使用日如何劃分？",
+        "answer": "依裝置當地時間：上午06:00至12:00，下午12:00至18:00，晚間18:00至次日06:00。使用日於06:00更新。只有選完全部卡牌、結果確定後才消耗次數。額外次數不保留至下一個使用日。"
+      },
+      {
+        "id": "details",
+        "question": "如何開啟詳細解讀？",
+        "answer": "基本解讀免費。自願完整觀看一次廣告後，該紀錄保留期間可反覆開啟其詳細解讀。基本和詳細內容同時生成，解鎖方式不會改變結果。"
+      },
+      {
+        "id": "rewarded",
+        "question": "什麼是獎勵廣告？",
+        "answer": "你可以自願完成廣告，解鎖本次紀錄的詳細解讀，或在符合條件時獲得一次一般額外解讀。提前關閉或載入失敗不會獲得獎勵。若只是獎勵儲存失敗，可直接重試儲存，無須再看廣告。廣告不提供FO PICK額外抽牌。"
+      },
+      {
+        "id": "premium",
+        "question": "FO PICK v1如何使用？",
+        "answer": "基本解讀免費。自願完整觀看獎勵廣告可開啟詳細解讀，或在符合條件時獲得一次一般額外解讀。廣告不會改變卡牌機率、含義或解讀品質。"
+      },
+      {
+        "id": "subscription",
+        "question": "一定要看廣告嗎？",
+        "answer": "不必。在免費使用次數內，基本解讀無須廣告。只有需要詳細解讀或符合條件的一般額外解讀時，才選擇觀看廣告。"
+      },
+      {
+        "id": "restore",
+        "question": "廣告獎勵儲存失敗怎麼辦？",
+        "answer": "如果廣告已完成，只是獎勵儲存失敗，請在應用程式中重試儲存獎勵。已獲得的獎勵無須再次觀看廣告。應用程式啟動或回到前景時，也會重試未完成的儲存。"
+      }
+    ],
+    "id": [
+      {
+        "id": "about",
+        "question": "Apa itu FO PICK?",
+        "answer": "Aplikasi kartu untuk hiburan dan refleksi diri. Pilih dari 36 kartu dan baca tafsir sesuai topik serta suasana hatimu. Tafsir kalender tradisional Korea dan acara musiman belum tersedia."
+      },
+      {
+        "id": "predictions",
+        "question": "Apakah kartu menjamin masa depan?",
+        "answer": "Tidak. Bacaan memberikan sudut pandang tentang situasimu, bukan ramalan pasti atau pengganti saran profesional. Keputusan tetap ada di tanganmu."
+      },
+      {
+        "id": "reading-modes",
+        "question": "Apa perbedaan ketiga mode?",
+        "answer": "Satu kartu mendalami satu simbol. Tiga kartu menghubungkan alur saat ini, hal yang mungkin terlewat, dan arah hari ini. FO PICK menggabungkan empat dari 36 kartu: alur, faktor pengaruh, pilihanmu, dan arah. Arah adalah pendekatan yang bisa dipertimbangkan, bukan hasil yang dijamin."
+      },
+      {
+        "id": "history",
+        "question": "Bagaimana bacaan disimpan?",
+        "answer": "Teks dasar dan terperinci disimpan di perangkat ini. Membuka riwayat menampilkan teks asli tanpa membuat bacaan baru. Menghapus data aplikasi atau mencopotnya dapat menghapus riwayat. Jika gagal menyimpan, coba lagi dari halaman hasil."
+      },
+      {
+        "id": "delete-history",
+        "question": "Bisakah riwayat dihapus?",
+        "answer": "Hapus satu bacaan dari halaman rinciannya atau semua bacaan melalui Pengaturan. Penghapusan tidak dapat dibatalkan dan tidak mengembalikan jatah yang telah dipakai."
+      },
+      {
+        "id": "usage",
+        "question": "Berapa kali saya bisa membaca setiap hari?",
+        "answer": "Pilih satu atau tiga kartu sekali pada setiap slot pagi, siang, dan malam. FO PICK tersedia sekali per hari penggunaan secara terpisah. Setelah ketiga bacaan reguler dipakai, menonton iklan berhadiah sampai selesai memberikan satu bonus reguler. Batasnya satu bonus per hari penggunaan dan tidak dapat dipakai untuk undian FO PICK tambahan."
+      },
+      {
+        "id": "time-slots",
+        "question": "Kapan slot waktu dan hari penggunaan berganti?",
+        "answer": "Mengikuti waktu lokal perangkat: pagi 06:00–12:00, siang 12:00–18:00, dan malam 18:00–06:00 keesokan hari. Hari penggunaan dimulai pukul 06:00. Jatah baru terpakai setelah semua kartu dipilih dan hasil ditetapkan. Bonus tidak dibawa ke hari berikutnya."
+      },
+      {
+        "id": "details",
+        "question": "Bagaimana membuka bacaan terperinci?",
+        "answer": "Bacaan dasar gratis. Menyelesaikan satu iklan opsional membuka rincian catatan tersebut selama catatannya disimpan. Kedua teks dibuat bersamaan; cara membukanya tidak mengubah hasil."
+      },
+      {
+        "id": "rewarded",
+        "question": "Apa itu iklan berhadiah?",
+        "answer": "Iklan opsional yang ditonton sampai selesai membuka rincian bacaan itu atau satu bonus reguler bila memenuhi syarat. Menutup lebih awal atau gagal memuat tidak memberikan hadiah. Jika hanya penyimpanan hadiah yang gagal, coba simpan lagi tanpa menonton ulang. Tidak ada undian FO PICK tambahan."
+      },
+      {
+        "id": "premium",
+        "question": "Bagaimana cara menggunakan FO PICK v1?",
+        "answer": "Bacaan dasar gratis. Selesaikan iklan opsional untuk membuka rincian atau menerima satu bonus reguler bila memenuhi syarat. Iklan tidak mengubah peluang kartu, makna, atau kualitas bacaan."
+      },
+      {
+        "id": "subscription",
+        "question": "Apakah saya wajib menonton iklan?",
+        "answer": "Tidak. Dalam batas penggunaan gratis, bacaan dasar dapat dibaca tanpa iklan. Pilih menonton hanya untuk rincian atau bonus reguler yang memenuhi syarat."
+      },
+      {
+        "id": "restore",
+        "question": "Bagaimana jika hadiah gagal disimpan?",
+        "answer": "Jika iklan sudah selesai tetapi penyimpanan gagal, pilih coba simpan hadiah lagi di aplikasi. Hadiah yang sudah diperoleh tidak mengharuskan menonton ulang. Aplikasi mencoba kembali penyimpanan tertunda saat dibuka atau kembali ke latar depan."
+      }
+    ],
+    "vi": [
+      {
+        "id": "about",
+        "question": "FO PICK là ứng dụng gì?",
+        "answer": "Đây là ứng dụng thẻ bài dành cho giải trí và tự suy ngẫm. Bạn chọn trong 36 lá bài và đọc diễn giải theo chủ đề, tâm trạng của mình. Ứng dụng chưa có diễn giải theo lịch truyền thống Hàn Quốc hay sự kiện theo mùa."
+      },
+      {
+        "id": "predictions",
+        "question": "Lá bài có bảo đảm tương lai không?",
+        "answer": "Không. Bài đọc chỉ mang đến một góc nhìn về hoàn cảnh của bạn, không phải lời tiên đoán chắc chắn hay sự thay thế cho tư vấn chuyên môn. Quyết định vẫn thuộc về bạn."
+      },
+      {
+        "id": "reading-modes",
+        "question": "Ba chế độ khác nhau thế nào?",
+        "answer": "Một lá đi sâu vào một biểu tượng. Ba lá kết nối diễn biến hiện tại, điều có thể bị bỏ sót và hướng đi hôm nay. FO PICK tổng hợp bốn lá chọn từ 36 lá: diễn biến, yếu tố tác động, lựa chọn của bạn và hướng đi. Hướng đi là cách tiếp cận để tham khảo, không phải kết quả chắc chắn."
+      },
+      {
+        "id": "history",
+        "question": "Bài đọc được lưu thế nào?",
+        "answer": "Nội dung cơ bản và chi tiết được lưu trên thiết bị này. Mở lịch sử sẽ hiện nguyên văn đã lưu, không tạo lại bài đọc. Xóa dữ liệu hoặc gỡ ứng dụng có thể làm mất lịch sử. Nếu lưu thất bại, bạn có thể thử lại từ màn hình kết quả."
+      },
+      {
+        "id": "delete-history",
+        "question": "Có thể xóa lịch sử không?",
+        "answer": "Bạn có thể xóa từng bài ở trang chi tiết hoặc xóa tất cả trong Cài đặt. Không thể hoàn tác và lượt đã dùng không được hoàn lại."
+      },
+      {
+        "id": "usage",
+        "question": "Mỗi ngày có bao nhiêu lượt?",
+        "answer": "Mỗi khung sáng, chiều và tối có một lượt chọn một hoặc ba lá. FO PICK có một lượt riêng mỗi ngày sử dụng. Sau khi dùng hết ba lượt thông thường, xem hết quảng cáo có thưởng sẽ có một lượt thưởng thông thường. Giới hạn là một lượt thưởng mỗi ngày sử dụng, không dùng để rút thêm FO PICK."
+      },
+      {
+        "id": "time-slots",
+        "question": "Các khung giờ được tính ra sao?",
+        "answer": "Theo giờ địa phương của thiết bị: sáng 06:00–12:00, chiều 12:00–18:00, tối 18:00–06:00 hôm sau. Ngày sử dụng bắt đầu lúc 06:00. Lượt chỉ được tính khi chọn xong tất cả lá bài và kết quả đã xác định. Lượt thưởng không chuyển sang ngày tiếp theo."
+      },
+      {
+        "id": "details",
+        "question": "Làm sao mở bài đọc chi tiết?",
+        "answer": "Nội dung cơ bản miễn phí. Xem hết một quảng cáo tự nguyện sẽ mở chi tiết của bản ghi đó trong suốt thời gian bạn giữ bản ghi. Hai nội dung được tạo cùng lúc; cách mở không thay đổi kết quả."
+      },
+      {
+        "id": "rewarded",
+        "question": "Quảng cáo có thưởng là gì?",
+        "answer": "Quảng cáo tự nguyện được xem đến hết sẽ mở chi tiết bài đọc đó hoặc một lượt thưởng thông thường khi đủ điều kiện. Đóng sớm hoặc không tải được sẽ không nhận thưởng. Nếu chỉ lưu thưởng thất bại, hãy thử lưu lại mà không xem lại quảng cáo. Không có lượt rút FO PICK bổ sung."
+      },
+      {
+        "id": "premium",
+        "question": "FO PICK v1 hoạt động thế nào?",
+        "answer": "Nội dung cơ bản miễn phí. Xem hết quảng cáo tự nguyện để mở chi tiết hoặc nhận một lượt thưởng thông thường khi đủ điều kiện. Quảng cáo không thay đổi xác suất lá bài, ý nghĩa hay chất lượng bài đọc."
+      },
+      {
+        "id": "subscription",
+        "question": "Tôi có bắt buộc xem quảng cáo không?",
+        "answer": "Không. Trong giới hạn sử dụng miễn phí, bạn có thể đọc nội dung cơ bản không cần quảng cáo. Chỉ chọn xem khi muốn mở chi tiết hoặc nhận lượt thưởng thông thường đủ điều kiện."
+      },
+      {
+        "id": "restore",
+        "question": "Nếu không lưu được phần thưởng thì sao?",
+        "answer": "Nếu quảng cáo đã hoàn tất nhưng lưu thưởng thất bại, hãy chọn thử lưu thưởng lại trong ứng dụng. Không cần xem lại quảng cáo cho phần thưởng đã nhận. Ứng dụng cũng thử lưu lại các phần thưởng đang chờ khi mở hoặc trở về màn hình chính của ứng dụng."
+      }
+    ]
+  }
+}

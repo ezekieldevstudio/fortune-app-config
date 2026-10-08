@@ -72,17 +72,6 @@
       <section aria-labelledby="consent">
         <h2 id="consent">Consent and privacy choices</h2>
         <p>FO PICK uses Google's User Messaging Platform (UMP) to update consent information and present Google's consent form where required. Ads are requested only when UMP indicates that they can be requested. Where UMP requires a privacy options entry point, the app's settings provide access to Google's privacy options form. Choices and their availability depend on your region and the configured messages. Relevant consent preferences may be stored by the SDK.</p>
-        <p>While Premium access is active, the app suppresses rewarded-ad entry points and new rewarded-ad requests. A consent or ad operation already in progress may complete. Where the app has received a UMP requirement for privacy options, that settings entry remains available.</p>
-      </section>
-
-      <section aria-labelledby="purchases">
-        <h2 id="purchases">Optional Premium purchase</h2>
-        <p>FO PICK offers an optional one-time, non-consumable Premium purchase through Google Play Billing. It is not a subscription and does not automatically renew. This integration is in development; store product configuration and purchase testing must be completed before public availability.</p>
-        <p>Payment processing is handled by Google Play. FO PICK does not receive or store your full payment card details, payment-method details, or Google payment account information. The app uses the product identifier, purchase state, and purchase token returned by Google Play to determine Premium entitlement and acknowledge a completed purchase. Purchase tokens are used in memory for these operations and are not saved in FO PICK's local entitlement cache.</p>
-        <p>The app stores a minimal entitlement cache on the device: its schema version, Premium status, source, product identifier, last refresh timestamp, and last known purchase state. This cache is separate from reading history and usage records; deleting reading history does not delete Premium entitlement. The app refreshes ownership through Google Play at startup, on return to the foreground, and when you choose Purchase Restore in settings. Reinstalling or changing devices requires Google Play to return the purchase for the same purchasing account.</p>
-        <p>A last confirmed Premium cache may be used offline for up to seven days. A successful ownership query updates it, including removing global Premium access when no valid purchase is returned. Individual detailed readings previously unlocked by rewarded ads remain unlocked while those records exist. This version does not use FO PICK server-side purchase verification and cannot guarantee immediate detection of refunds or revocations.</p>
-        <p>Premium removes rewarded-ad requirements for detailed-reading access and for the daily bonus regular reading. The bonus is one extra Single or Triple reading after all three regular reading periods are used, shared with the free rewarded bonus limit. Premium does not offer unlimited readings or extra FO PICK readings. A purchase does not affect card selection, probabilities, reading plans, or fortune/card outcomes; the interpretation text is the same for free and Premium users.</p>
-        <p>For information about Google's handling of purchases and payment information, see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
       </section>
 
       <section aria-labelledby="contact">
