@@ -1,11 +1,11 @@
 # FO PICK public configuration repository
 
-## 최신 관리 현황 — 2026-10-14
+## 최신 관리 현황 — 2026-10-15
 
 - 앱: FO PICK / com.ezekiel.fopick / 앱 프로젝트: fortune-app
 - 로컬 경로: C:\dev\EzekielDev\fortune-app-config
-- 앱 단계: 비공개 테스트 / 콘텐츠 v1 마감·신규 기능 동결
-- Play: 마지막 확인 1.0.0 / code 1 · 비공개 Alpha(사용자 근거)
+- 앱 단계: 비공개 테스트 / 1.0.1 후보·신규 기능 동결
+- Play: 1.0.0 / code 1 · 비공개 Alpha 마지막 확인. 1.0.1 / code 2 프로덕션 제출 완료 근거 없음
 - 소스/native: 1.0.1 / 2 (세부 불일치·목표는 앱 README 참고)
 
 ### 공개 파일과 운영
@@ -19,6 +19,8 @@ faq.json, faq-locales.v1.json, notices.json, privacy-policy.html
 privacy-policy.html에 Developer contact: pending이 남음(실제 파일 확인). 승인된 개발자 연락처 반영과 게시 확인 필요. 정책 본문·JSON은 이번에 변경하지 않는다.
 
 ### 개발 및 변경 이력 — 최신 날짜순
+
+2026-10-15 사용자 제출/심사 상태와 앱 README 동기화. 공개 JSON·정책 내용 및 배포 상태는 새로 검증하지 않았다.
 
 2026-10-14 정책 연락처 미완료·앱 콘텐츠 v1 동결 상태 문서 대조. 2026-10-08 bfe541c Git 기록; 실제 게시일은 미확인.
 
