@@ -1,10 +1,10 @@
 # FO PICK public configuration repository
 
-## 최신 관리 현황 — 2026-10-15
+## 최신 관리 현황 — 2026-10-26
 
 - 앱: FO PICK / com.ezekiel.fopick / 앱 프로젝트: fortune-app
 - 로컬 경로: C:\dev\EzekielDev\fortune-app-config
-- 앱 단계: 비공개 테스트 / 1.0.1 후보·신규 기능 동결
+- 앱 단계: 프로덕션 액세스 승인 확인 / 1.0.1 출시 준비·신규 기능 동결
 - Play: 1.0.0 / code 1 · 비공개 Alpha 마지막 확인. 1.0.1 / code 2 프로덕션 제출 완료 근거 없음
 - 소스/native: 1.0.1 / 2 (세부 불일치·목표는 앱 README 참고)
 
@@ -16,9 +16,11 @@ faq.json, faq-locales.v1.json, notices.json, privacy-policy.html
 
 ### 현재 문제 / 다음 작업
 
-privacy-policy.html에 Developer contact: pending이 남음(실제 파일 확인). 승인된 개발자 연락처 반영과 게시 확인 필요. 정책 본문·JSON은 이번에 변경하지 않는다.
+2026-10-26 Play Console에서 프로덕션 액세스 승인 확인. 개인정보처리방침에 운영 연락처 ezekieldevstudio@gmail.com을 반영하고 개발 중 임시 안내를 정리했다. 공개 URL 반영 확인은 별도 수행한다. FAQ/공지 JSON과 광고·저장 정책의 의미는 변경하지 않았다.
 
 ### 개발 및 변경 이력 — 최신 날짜순
+
+2026-10-26 프로덕션 출시 준비: 개인정보처리방침의 개발자 연락처와 최종 갱신일 보완. Play Alpha 1.0.0/code 1, 출시 후보 1.0.1/code 2를 구분한다. 심사 제출·게시 완료는 아직 선언하지 않는다.
 
 2026-10-15 사용자 제출/심사 상태와 앱 README 동기화. 공개 JSON·정책 내용 및 배포 상태는 새로 검증하지 않았다.
 
@@ -55,6 +57,6 @@ The Privacy Policy remains one English page at the existing URL. Its verified de
 
 ## TODO
 
-- Add a verified developer contact to the Privacy Policy before public release.
+- Completed locally 2026-10-26: developer contact added to the Privacy Policy.
 - Publish the reviewed policy and verify the existing GitHub Pages `privacy-policy.html` URL. Local edits alone do not update the public page.
 - Verify AdMob/UMP console configuration, native-device Home banner and both rewarded placements, and interrupted reward-storage recovery before release. Local identifier and configuration checks have passed.
